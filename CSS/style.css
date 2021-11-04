@@ -1,0 +1,146 @@
+/* .warna-bg{
+    background: linear-gradient(to right, rgba(91,134,329,92), rgba(175, 242, 247, 0.92))
+}
+*/
+
+.jumbotron-bg{
+    background-size: cover;
+    background:linear-gradient(rgba(22, 0, 82, 0), rgba(2, 1, 105, 0.7)),
+    url(../img/gambarbanner1.jpg);
+    background-size: 100%;
+}
+
+.banner2{
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(2, 12, 58, 0.8);
+}
+
+.banner3{
+    box-shadow: 2px 2px 2px rgba(2, 12, 58, 0.8);
+}
+
+.line1{
+    color: rgba(4, 4, 131, 0.822);
+    width: 100%;
+    border-style: dashed;
+}
+.line2{
+    border: none;
+    height: 500px;
+    width: 70%;
+    color: rgba(4, 0, 255, 0.822);
+}
+
+.banner-info{
+    background-size: cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.288), rgba(6, 3, 160, 0.582)),
+    url(../img/banner3.jpg);
+    background-size: 100%;
+}
+
+.banner-penerimaan{
+    background-size: cover;
+    background:linear-gradient(rgba(54, 53, 53, 0.788), rgba(2, 1, 105, 0.7)),
+    url(../img/banner5.jpg);
+    background-size: 100%;
+}
+
+.tulis-tengah{
+    text-align: center;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background:linear-gradient(rgb(0, 107, 247),navy);
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 80%;
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.tomboltes {
+display: inline-block;
+border-radius: 4px;
+background-color: #1a00af;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 15px;
+padding: 8px;
+width: 100px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+
+.tomboltes span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.tomboltes span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.tomboltes:hover span {
+padding-right: 25px;
+}
+
+.tomboltes:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+.header-upi{
+    background: rgb(207, 207, 207);
+}
+
+.footer-upi{
+    background: linear-gradient(rgb(2, 122, 170),navy);
+}
+
+
+.line-footer{
+    width: 100px;
+    color: rgb(0, 238, 255);
+    size: 100px;
+}
+
+.modale{
+    background:rgb(75, 173, 253);
+}
